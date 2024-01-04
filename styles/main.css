@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2? family= Great+Vibes & family= Righteous & family= Sarala & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(to right, rgba(252, 152, 1, 0.76), rgb(119, 200, 224));
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: rgba(245, 140, 20, 0.877);
+}
+
+
+.cabecalho-menu {
+    display: flex;
+    gap: 85px;
+    padding: 15px;
+    flex-direction: row;
+    
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: rgb(255, 254, 254);
+}
+
+.conteudo{
+    margin-bottom: 48PX;
+    border-top: 0.4px solid #ffffff;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(13, 13, 14);
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+   color: black;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #ffffff;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 48px;
+
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #111111;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fdfdfc;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.botao-footer{
+    background-color: #ffffff;
+    width: 180px;
+    height: 48px;
+    border: none;
+    box-shadow: 4px 5px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+
